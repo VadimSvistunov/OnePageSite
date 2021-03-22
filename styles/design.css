@@ -1,0 +1,55 @@
+@import './fonts.css';
+
+.design {
+    height: 558px;
+    background: url(../assets/background/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100% 558px;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.design__content {
+    padding-left: 638px;
+    padding-top: 146px;
+    color: #373737;
+    letter-spacing: 0.15em;
+}
+
+.design__content>h4 {
+    font-family: 'Gotham Rounded Bold';
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #16a085 !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+.design__description {
+    font-family: 'Gotham Rounded Book';
+    position: absolute;
+    margin: 0px 0px;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+}
+
+.design__btn {
+    padding-top: 186px;
+    padding-bottom: 45px;
+}
+.design__counter {
+    font-family: 'Gotham Rounded';
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.design__switch_left {
+    padding-right: 21px;
+}

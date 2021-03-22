@@ -1,0 +1,56 @@
+@import './fonts.css';
+
+.footer {
+    height: 131px;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    color: #373737;
+}
+.footer__logo {
+    padding-top: 38px;
+}
+.content__left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46px;
+}
+.footer__description {
+    padding-top: 23px;
+    margin: 0 0;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 14px;
+    letter-spacing: 0.15em;
+}
+.footer__navigation {
+    font-family: 'Gotham Rounded Bold';
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0 0;
+}
+.footer__navigation>li {
+    padding-right: 11px;
+    margin-right: 12px;
+    position: relative;
+}
+.footer__navigation>li::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 13px;
+    background-color: #16a085;
+    position: absolute;
+    right: 0;
+}
+.footer__navigation>li:last-child::before {
+    display: none;
+}
+
+.footer__navigation>li>a {
+    text-decoration: none;
+    color: #373737;
+}

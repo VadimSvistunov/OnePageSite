@@ -1,0 +1,46 @@
+@import './fonts.css';
+
+.iphone {
+    height: 494px;
+    background: url(../assets/background/hand.png);
+    background-repeat: no-repeat;
+    background-size: 100% 494px;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.iphone__content {
+    height: 494px;
+    padding-left: 0px;
+    margin-top: 0;
+}
+
+.iphone__content>h4 {
+    font-family: 'Gotham Rounded Bold';
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.15em;
+    color: #16a085;
+    font-size: 18px;
+    padding-top: 113px;
+    text-transform: uppercase;
+}
+
+.iphone__description {
+    font-family: 'Gotham Rounded Book';
+    color: #373737;
+    margin: 0px 0px;
+    padding-top: 50px;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+}
+
+.iphone__btn {
+    position: absolute;
+    bottom: 90px;
+    left: 128px;
+}

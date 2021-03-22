@@ -1,0 +1,119 @@
+@import 'styles/fonts.css';
+
+.header {
+    height: 745px;
+    background: url(../assets/background/background_header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 745px;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    flex-flow: row nowrap;
+    margin: 0px 0px;
+    margin-bottom: 0px;
+    width: 748px;
+    height: 55px;
+    padding: 40px 145px;
+    padding-bottom: 0px;
+}
+.navigation>li>a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 16px;
+    letter-spacing: 0.15em;
+}
+
+.nav__home {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.nav__photoapp {
+    width: 109px;
+    padding-left: 68px;
+}
+.nav__logo {
+    padding-left: 103px;
+}
+.nav__design {
+    padding-left: 100px;
+}
+.nav__download {
+    padding-left: 82px;
+}
+
+.navigation>li {
+    
+    align-items: stretch;
+    align-self: center;
+    color: #fff;
+}
+
+.promo__content {
+    display: grid;
+    padding-top: 247px;
+    padding-bottom: 210px;
+    
+}
+
+.promo__content>h1 {
+    font-family: 'Gotham Rounded Bold';
+    letter-spacing: 0.25em;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+.promo__content>p {
+    font-family: 'Gotham Rounded Medium';
+    font-size: 16px;
+    margin-top: 0px;
+    letter-spacing: 0.20em;
+    margin-bottom: 0px;
+    padding-bottom: 26px;
+    text-align: center;
+}
+.promo__btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: 0.3s;
+    height: 49px !important;
+    width: 166px !important;
+}
+
+.btn_colored{
+    border: none;
+    padding: 0 0;
+    height: 51px;
+    width: 192px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 0.15em;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+.network_icons{
+    height: 20px;
+    padding-left: 463px;
+    padding-bottom: 26px;
+    display: flex;
+}
+.network_icons>span {
+    padding-right: 16px;
+}
+
+.btn_hover:hover {
+    background-color: #088169;
+}

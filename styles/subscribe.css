@@ -1,0 +1,53 @@
+@import './fonts.css';
+
+.subscribe {
+    height: 790px;
+    background: url(../assets/background/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: 100% 790px;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.subsribe__text>h2 {
+    margin: 0 0;
+    padding-top: 353px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.subscribe__input {
+    display: flex;
+    padding-left: 339px;
+}
+input {
+    width: 232px;
+    padding: 21px 24px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-family: 'Gotham Rounded Medium';
+    letter-spacing: 0.15em;
+    font-size: 16px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.subscribe__input__input {
+    height: 60px;
+    width: 280px; 
+}
+.subscribe__button{
+    height: 60px !important;
+    width: 63px !important;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

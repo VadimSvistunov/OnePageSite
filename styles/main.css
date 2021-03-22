@@ -1,0 +1,28 @@
+@import './header.css';
+@import './fonts.css';
+@import './iphone.css';
+@import './design.css';
+@import './normalize.css';
+@import './community.css';
+@import './subscribe.css';
+@import './download.css';
+@import './footer.css';
+
+
+html {
+    margin: 0px auto;
+    padding: 0px auto;
+    border: 0px auto;
+}
+
+body {
+    margin: 0px auto;
+}
+
+.wrapper {
+    padding-left: 128px;
+    padding-right: 128px;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}

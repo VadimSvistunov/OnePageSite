@@ -1,0 +1,59 @@
+@import './fonts.css';
+
+.community {
+    height: 483px;
+    background: url(../assets/background/community.png);
+    background-repeat: no-repeat;
+    background-size: 100% 483px;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.community__switches {
+    padding-top: 95px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.community__switch_left {
+    padding-right: 16px;
+}
+.community__content {
+    display: flex;
+    justify-content: space-between;
+    height: 244px;
+    color: #373737;
+}
+.community__img {
+    display: flex;
+    
+}
+.community__img__left {
+    padding-right: 24px;
+}
+.community__logo{
+    padding-top: 44px;
+    justify-content: center;
+    padding-left: 59px;
+}
+.community__text {
+    letter-spacing: 0.12em;
+    display: flex;
+    flex-direction: column;
+}
+.community__text>h4 {
+    font-family: "Gotham Rounded Bold";
+    font-size: 16px;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    margin: 0 0;
+}
+.community__text__description {
+    font-family: "Gotham Rounded Medium";
+    letter-spacing: 0.10em;
+    font-size: 10px;
+    margin: 0 0;
+    text-align: center;
+}
