@@ -55,6 +55,11 @@
     color: #fff;
 }
 
+.link__hover:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .promo__content {
     display: grid;
     padding-top: 247px;
@@ -116,4 +121,10 @@
 
 .btn_hover:hover {
     background-color: #088169;
+    cursor: pointer;
+}
+
+.ico_hover:hover {
+    cursor: pointer;
+    opacity: 0.7; 
 }

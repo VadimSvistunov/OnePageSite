@@ -42,7 +42,7 @@
 }
 .download__buttons__apple {
     display: flex;
-    padding-right: 26px;
+    margin-right: 26px;
 }
 .download__btns {
     border-top-left-radius: 3px;
